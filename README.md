@@ -17,4 +17,4 @@ Test the installation: (all tests should pass)
     
 Then setup pre-commit hooks:
 
-    ln -s .hooks/pre-commit .git/hooks/
+    cd .git/hooks/ && ln -s .hooks/pre-commit . && cd -
