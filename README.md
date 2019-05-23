@@ -7,10 +7,14 @@ PyTorch and best practices when working on a project.
 
 ## Install
 
-(from the root folder)
+Install all the requirements: (from the root folder)
 
     pip install -r requirements.txt
 
 Test the installation: (all tests should pass)
 
     python -m unittest discover
+    
+Then setup pre-commit hooks:
+
+    ln -s .hooks/pre-commit .git/hooks/
