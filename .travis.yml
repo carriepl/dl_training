@@ -6,4 +6,5 @@ install:
   # Reducing verbosity is needed because of Travis' limit on log length
   - pip install -r requirements.txt --quiet
 script:
+  - flake8
   - python -m unittest discover
